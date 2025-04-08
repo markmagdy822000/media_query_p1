@@ -1,3 +1,13 @@
+@media (max-width: 1220px) {
+    header .nav--btn{
+       .btn{
+        width:9rem;
+        padding: .15rem 5px;
+
+       }
+    }
+
+}
 
 @media (max-width: 1050px) {
     html{
@@ -145,7 +155,12 @@
             font-size:0.5rem;
         }
     }
-    .header{
+    .hero{
+        .hero__header{
+            h1.header__heading{
+                font-size: 3.5rem;
+            }
+    }
       .nav__links {
         .nav--btn{
          btn{ width:1px;}
@@ -161,7 +176,7 @@
       font-size: 1.6rem;
       
     }
-  
+
   
     .hero{
         width: 80%;
@@ -255,4 +270,23 @@
             grid-row: 40/ span 3;
           }  
       }
+}
+
+
+@media (max-width: 793px) {
+    
+    header .nav--btn{
+        .nav__links{
+            width: 10%;
+        }        
+        
+        /* border: 1px solid red; */
+        Gap:10px;
+        .btn{
+            width:1fr;
+            padding: 0rem 0px;
+            font-size: 0.5rem;;
+       }
+    }
+
 }
